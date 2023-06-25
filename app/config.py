@@ -17,7 +17,7 @@ class Settings(BaseSettings):
         "https://localhost:8000",  # type: ignore
     ]
 
-    PROJECT_NAME: str = "Bike Rental Prediction test"
+    PROJECT_NAME: str = "Bike Rental Prediction"
 
     class Config:
         case_sensitive = True
